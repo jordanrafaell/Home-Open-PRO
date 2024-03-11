@@ -1,0 +1,53 @@
+.container_cliente_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    gap: 3rem;
+
+    color: var(--color-texth1-banner);
+}
+
+.container_cliente_title h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.container_cliente_title p {
+    font-size: 25px;
+    color: var(--color-textp-banner);
+}
+
+
+.container_icons {
+    /*Prioridade*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.icons img {
+    margin-bottom: 10px;
+}
+
+.icons h3 {
+    margin: 5px 0px 10px;
+    font-size: 30px;
+    color: var(--color-texth1-banner);
+}
+
+.icons p {
+    font-size: 20px;
+    color: var(--color-textp-banner);
+}
+
+.line {
+    margin-top: 10rem;
+    border: 0.01rem solid #97979732;
+}

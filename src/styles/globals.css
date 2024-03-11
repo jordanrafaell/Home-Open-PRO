@@ -1,0 +1,68 @@
+@import './Components/Banner.css';
+@import './Components/Footer.css';
+@import './Components/Header.css';
+@import './Components/Section_1.css';
+@import './Components/Section_2.css';
+@import './Components/Testimonials.css';
+
+/*Font de texto importadas*/
+@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
+
+
+/*Estilos globais de cores e texto*/
+:root {
+    --color-background: #151719;
+    --color-link-header-login: #5D5DFF;
+    --color-link-header-singUp: #ffffff;
+    --color-link-hover-header: #4b4acf;
+
+    --color-texth1-banner: #D9E3EA;
+    --color-textp-banner: #9BA9B4;
+    --color-background-btn: #33363A;
+    --color-hover-background: #25282c;
+
+    --table-text-font: 'Architects Daughter', handwriting;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    background: var(--color-background);
+}
+
+.max-width {
+    width: 100%;
+    max-width: 1104px;
+    height: auto;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h2 {
+    text-align: center;
+    width: 100%;
+    font-size: clamp(40px, 5vw, 50px);
+    color: var(--color-texth1-banner);
+}

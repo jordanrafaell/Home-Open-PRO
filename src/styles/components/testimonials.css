@@ -1,0 +1,101 @@
+.testemunhas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.title_testemunhas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.title_testemunhas h2 {
+  font-size: 50px;
+  margin-top: 4rem;
+}
+
+.title_testemunhas p {
+  width: 100%;
+  font-size: clamp(18px, 2.5vw, 22px);
+  color: var(--color-textp-banner);
+  margin-top: 10px;
+  letter-spacing: 2px;
+  line-height: 35px;
+}
+
+.container_testemunhas {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+
+.cards_testemunhas {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cards_testemunhas .card_testemunhas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: var(--color-background-btn);
+}
+
+.cards_testemunhas .card_testemunhas .img_testemunhas {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  margin: 0px 00px 0px 5px;
+}
+
+.cards_testemunhas .card_testemunhas .comentario {
+  display: flex;
+  justify-content: center;
+  margin: 0px 20px 20px;
+  width: 100%;
+  max-width: 300px;
+
+  color: var(--color-textp-banner);
+  font-size: 20px;
+}
+
+.line_testemunhas {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  border: 0.01rem solid #97979732;
+}
+
+.footer_testemunhas {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-left: 25px;
+  margin: 20px 25px;
+  background-color: var(--color-background-footer);
+}
+
+.footer_testemunhas h3 {
+  color: var(--color-texth1-banner);
+}
+
+.proficao {
+  color: var(--color-link-header-login);
+}
