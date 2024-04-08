@@ -15,6 +15,7 @@
     --color-link-header-login: #5D5DFF;
     --color-link-header-singUp: #ffffff;
     --color-link-hover-header: #4b4acf;
+    --color-link-text-form: rgba(171, 171, 255, 1);
 
     --color-texth1-banner: #D9E3EA;
     --color-textp-banner: #9BA9B4;
@@ -54,10 +55,6 @@ button {
 a {
     text-decoration: none;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 
 h2 {

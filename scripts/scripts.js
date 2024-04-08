@@ -13,5 +13,3 @@ document.addEventListener('click', function (event) {
     btn_play.style.display = 'block';
   }
 });
-
-console.log(teste);
