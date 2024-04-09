@@ -1,9 +1,9 @@
 @import '/src/styles/components/banner.css';
-@import './Components/Footer.css';
-@import './Components/Header.css';
-@import './Components/Section_1.css';
-@import './Components/Section_2.css';
-@import './Components/Testimonials.css';
+@import '/src/styles/components/Footer.css';
+@import '/src/styles/components/Header.css';
+@import '/src/styles/components/Section_1.css';
+@import '/src/styles/components/Section_2.css';
+@import '/src/styles/components/Testimonials.css';
 
 /*Font de texto importadas*/
 @import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
