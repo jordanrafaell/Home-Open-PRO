@@ -1,4 +1,4 @@
-@import './Components/Banner.css';
+@import '/src/styles/components/banner.css';
 @import './Components/Footer.css';
 @import './Components/Header.css';
 @import './Components/Section_1.css';
