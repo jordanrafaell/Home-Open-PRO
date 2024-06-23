@@ -4,6 +4,7 @@
 @import '/src/styles/components/Section_1.css';
 @import '/src/styles/components/Section_2.css';
 @import '/src/styles/components/Testimonials.css';
+@import '/src/styles/components/login_registro.css';
 
 /*Font de texto importadas*/
 @import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
@@ -16,7 +17,7 @@
     --color-link-header-singUp: #ffffff;
     --color-link-hover-header: #4b4acf;
     --color-link-text-form: rgba(171, 171, 255, 1);
-
+    --color-label: white;
     --color-texth1-banner: #D9E3EA;
     --color-textp-banner: #9BA9B4;
     --color-background-btn: #33363A;
@@ -50,6 +51,7 @@ body {
 
 button {
     border: none;
+    cursor: pointer;
 }
 
 a {

@@ -1,6 +1,8 @@
 let btn_play = document.querySelector('#btn_play');
 let video_play = document.querySelector('.videoPlayer');
 
+
+// menu mobile home
 btn_play.addEventListener('click', function () {
   video_play.classList.toggle('active_video');
   btn_play.style.display = 'none';

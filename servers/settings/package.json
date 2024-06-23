@@ -1,12 +1,12 @@
 {
-  "name": "home-open-pro",
-  "version": "1.0.0",
-  "description": "![Imagem do projeto](https://github.com/jordanrafaell/Home-Open-PRO/assets/61181764/f253fe8d-48fd-4cb1-a492-1d84012cb0dc)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "home-open-pro",
+	"version": "1.0.0",
+	"description": "![Imagem do projeto](https://github.com/jordanrafaell/Home-Open-PRO/assets/61181764/f253fe8d-48fd-4cb1-a492-1d84012cb0dc)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
 }
