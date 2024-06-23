@@ -1,10 +1,10 @@
-@import '/src/styles/components/banner.css';
-@import '/src/styles/components/Footer.css';
-@import '/src/styles/components/Header.css';
-@import '/src/styles/components/Section_1.css';
-@import '/src/styles/components/Section_2.css';
-@import '/src/styles/components/Testimonials.css';
-@import '/src/styles/components/login_registro.css';
+@import './components/banner.css';
+@import './components/footer.css';
+@import './components/header.css';
+@import './components/login_registro.css';
+@import './components/section_1.css';
+@import './components/section_2.css';
+@import './components/testimonials.css';
 
 /*Font de texto importadas*/
 @import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
